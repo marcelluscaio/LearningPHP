@@ -5,7 +5,11 @@ $notas = [
    9,
    8,
    7,
-   6
+   6,
+   5,
+   4,
+   3,
+   2
 ];
 
 $notas_ordenadas = $notas.sort();
@@ -14,4 +18,4 @@ $nota_especifica = $notas.find(7);
 
 var_dump($notas);
 var_dump($notas_ordenadas);
-var_dump($nota_especifica)
+var_dump($nota_especifica);
