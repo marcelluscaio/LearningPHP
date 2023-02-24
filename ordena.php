@@ -27,23 +27,33 @@ $notas = [
 
 
 function ordenaNotas(array $nota1, array $nota2) :int{
-   if($nota1['nota'] > $nota2['nota']){
+   return $nota1['nota'] <=> $nota2['nota'];
+   
+   /* if($nota1['nota'] > $nota2['nota']){
       return 1;
    }
    else if($nota2['nota'] > $nota1['nota']){
       return -1;
    }
-   return 0;
+   return 0; */
 } 
 
 usort(array: $notas, callback: 'ordenaNotas');
 
+/* sort - Ordena
+rsort - Ordena decrescente
+asort - Ordena mantendo a chave no lugar
+arsort - Idem, mas decrescente
+ksort - ordena pelas chaves
+krsort - idem, mas decrescente 
+
+Array key exists
+Is set
+in array
+in array strict
+array_search
+array_search strict
+
+*/
+
 var_dump($notas) ;
-
-/* $nota_especifica = $notas.find(7);
-
-function findNota($num){
-   $notas.find($num);
-}
-
-findNota(8); */
