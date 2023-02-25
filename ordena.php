@@ -54,6 +54,16 @@ in array strict
 array_search
 array_search strict
 
+
+array diff
+array diff key
+array diff assoc
+
+array keys
+array values
+
+
+
 */
 
 var_dump($notas) ;
