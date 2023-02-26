@@ -61,9 +61,24 @@ array diff assoc
 
 array keys
 array values
+array combine
+array flip
 
 
 
 */
 
 var_dump($notas) ;
+
+$alunos_2022 = [
+   'Caio',
+   'Pri'
+];
+
+$novos_alunos = [
+   'Kali'
+];
+
+$aluno_2023 = array_merge($alunos_2022, $novos_alunos);
+
+var_dump($alunos_2023);
