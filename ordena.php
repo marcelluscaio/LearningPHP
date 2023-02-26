@@ -88,3 +88,20 @@ Merge x array + array. O merge junta os arrays, e o + ignora os indices numerico
 
 Existe a sintaxe de espalhamento (unpacking) e existe também o spread operator (...) 
 */
+
+/*
+Métodos de array
+
+push (coloca no final)
+unshift (coloca no começo)
+
+shift(retira o primeiro)
+pop (retira o último)
+
+
+*/
+
+$dados = ['vinicius', 10, 30];
+list($nome, $nota, $idade) = $dados;
+
+/*poderia usar [$nome, $nota, $idade] = $dados */
