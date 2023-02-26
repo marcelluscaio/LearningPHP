@@ -105,3 +105,5 @@ $dados = ['vinicius', 10, 30];
 list($nome, $nota, $idade) = $dados;
 
 /*poderia usar [$nome, $nota, $idade] = $dados */
+
+/* Extract e compact. Filter, map e reduce */
