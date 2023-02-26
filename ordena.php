@@ -82,3 +82,9 @@ $novos_alunos = [
 $aluno_2023 = array_merge($alunos_2022, $novos_alunos);
 
 var_dump($alunos_2023);
+
+/*
+Merge x array + array. O merge junta os arrays, e o + ignora os indices numericos existentes no array original.
+
+Existe a sintaxe de espalhamento (unpacking) e existe também o spread operator (...) 
+*/
